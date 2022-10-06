@@ -19,7 +19,7 @@
     <title>SimplePage</title>
 </head>
 <body>
-<form action="#" th:action = "@{'/simple-home'}" method="post">
+<form  th:action = "@{'/simple-home'}" action="#" method="POST">
     <input type="submit" value="Visit me">
 </form>
 <h1 th:if ="${firstMessage}" >Hello, homepage!</h1>
